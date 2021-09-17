@@ -1,0 +1,35 @@
+@media (max-width: 739px) {
+    .container {
+        width: 100%;
+    }
+    .profile {
+        padding-top: 10px
+    }
+    .profile__img {
+        width: 100px;
+    }
+    .profile__name {
+        font-size: 18px;
+    }
+    .profile__statistic-item {
+        width: 90px;
+        height: 60px;
+    }
+    .profile__hometown {
+        margin-bottom: 0;
+    }
+    .profile__hometown,
+    .statistic__number,
+    .statistic__label {
+        font-size: 12px;
+    }
+    .gallery__img {
+        border-radius: calc(var(--img-border-radus)/2);
+    }
+    .long-img {
+        border-radius: var(--img-border-radus);
+    }
+    .footer {
+        margin-bottom: 5px 0 10px;
+    }
+}
